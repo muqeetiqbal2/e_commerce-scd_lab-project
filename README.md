@@ -1,8 +1,6 @@
 # 🛒 E-Commerce Application
 
-![E-Commerce Banner](https://your-image-url.com/banner.png)
-
-This repository contains the code for a basic e-commerce application developed in Java using JavaFX for the user interface and MySQL for the database. The application includes modules for product management, user management, shopping cart and checkout, order management, and delivery tracking.
+This repository contains the code for a basic e-commerce application developed in Java using JavaFX for the user interface and MySQL for the database. The application includes product management, user management, shopping cart and checkout, order management, and delivery tracking modules.
 
 ## Features
 
