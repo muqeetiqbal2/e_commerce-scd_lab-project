@@ -145,5 +145,5 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-For any questions or feedback, please contact [your email].
+For any questions or feedback, please get in touch with muqeetiqbal01@gmail.com.
 
