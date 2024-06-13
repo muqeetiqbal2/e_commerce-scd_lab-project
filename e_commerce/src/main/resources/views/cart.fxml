@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CartController">
+   <children>
+      <Label text="Shopping Cart" />
+      <ListView fx:id="cartListView" />
+      <Label fx:id="totalLabel" text="Total: $" />
+      <Button text="Checkout" onAction="#handleCheckout"/>
+   </children>
+   <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+   </padding>
+</VBox>

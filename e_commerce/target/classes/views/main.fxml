@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ProductController">
+   <children>
+      <Label text="Product Management" />
+      <Button text="Login" onAction="#handleLogin" />
+      <Button text="Register" onAction="#handleRegister" />
+      <TextField fx:id="productNameField" promptText="Product Name" />
+      <TextArea fx:id="productDescriptionField" promptText="Product Description" />
+      <TextField fx:id="productPriceField" promptText="Product Price" />
+      <TextField fx:id="productImageUrlField" promptText="Product Image URL" />
+      <ComboBox fx:id="productCategoryBox">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="Electronics" />
+               <String fx:value="Clothing" />
+               <String fx:value="Books" />
+               <!-- Add more categories as needed -->
+            </FXCollections>
+         </items>
+      </ComboBox>
+      <Button text="Add Product" onAction="#addProduct"/>
+      <Button text="Add Product" onAction="#addProduct"/>
+      <Button text="View Cart" onAction="#viewCart"/>
+      <Button text="Checkout" onAction="#checkout"/>
+   </children>
+   <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+   </padding>
+</VBox>
